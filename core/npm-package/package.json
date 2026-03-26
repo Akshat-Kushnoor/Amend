@@ -1,0 +1,48 @@
+{
+  "name": "amend",
+  "version": "0.1.0",
+  "description": "Cross-language error intelligence system with deterministic 5-5-5 hash engine",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "bin": {
+    "amend": "./dist/esm/cli/index.js"
+  },
+  "scripts": {
+    "build:esm": "tsc --project tsconfig.json",
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build": "npm run build:esm && npm run build:cjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev": "tsc --watch --project tsconfig.json"
+  },
+  "keywords": [
+    "error",
+    "debugging",
+    "hash",
+    "ai-agent",
+    "error-management"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ]
+}
