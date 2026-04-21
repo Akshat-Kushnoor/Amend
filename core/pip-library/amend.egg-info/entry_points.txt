@@ -1,0 +1,2 @@
+[console_scripts]
+amend = amend.cli.main:run

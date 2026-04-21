@@ -1,0 +1,15 @@
+{
+  "name": "amend-node-calculator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Terminal calculator sample using the amend npm-package for error management",
+  "main": "calculator.js",
+  "scripts": {
+    "start": "node calculator.js"
+  },
+  "dependencies": {
+    "amend": "file:../../core/npm-package",
+    "openai": "^6.34.0",
+    "readline": "^1.3.0"
+  }
+}

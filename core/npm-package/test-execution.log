@@ -1,0 +1,6 @@
+[2026-04-16T07:44:34.215Z] [INFO] [AgentConfig] Starting AgentConfig test suite
+[2026-04-16T07:44:34.221Z] [INFO] [AgentConfig] Test: Hints mapping
+[2026-04-16T07:44:34.223Z] [INFO] [AgentConfig] Retrieved hint: Check the database connection
+[2026-04-16T07:44:34.229Z] [INFO] [AgentConfig] Test: Path scoping
+[2026-04-16T07:44:34.232Z] [INFO] [AgentConfig] Secret path enabled status: false
+[2026-04-16T07:44:34.235Z] [SUCCESS] [AgentConfig] Finished AgentConfig test suite

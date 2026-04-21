@@ -1,5 +1,8 @@
-pip-library
+
 
 core/npm-package/dist
 
 plan
+.venv
+
+core/pip-library/tests/__pycache__
